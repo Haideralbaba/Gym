@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "public_app",
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api"
+    },
+    {
+      "source": "/((?!api/|assets/|icons/|manifest\\.webmanifest|sw\\.js).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
