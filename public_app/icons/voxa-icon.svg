@@ -1,1 +1,23 @@
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="voxaGold" x1="64" y1="48" x2="448" y2="464" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F3DF99"/>
+      <stop offset="45%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#9A7617"/>
+    </linearGradient>
+    <linearGradient id="voxaGoldFacet" x1="256" y1="96" x2="256" y2="416" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FCEBB6"/>
+      <stop offset="100%" stop-color="#B89024"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#08080A"/>
+  <!-- Outer precision geometric octagon -->
+  <polygon points="172,44 340,44 468,172 468,340 340,468 172,468 44,340 44,172" stroke="url(#voxaGold)" stroke-width="14" stroke-opacity="0.45" fill="#0E0E13"/>
+  <!-- Architectural V-prism blades -->
+  <polygon points="122,138 190,138 256,310 222,388" fill="url(#voxaGold)"/>
+  <polygon points="390,138 322,138 256,310 290,388" fill="url(#voxaGoldFacet)"/>
+  <!-- Center precision keystone -->
+  <polygon points="256,316 286,388 256,418 226,388" fill="#F6E5A8"/>
+  <!-- Upper geometric apex diamond -->
+  <polygon points="256,118 282,158 256,198 230,158" fill="url(#voxaGold)"/>
+</svg>
