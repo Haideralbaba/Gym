@@ -1,0 +1,19 @@
+{
+  "name": "VOXA — Training System",
+  "short_name": "VOXA",
+  "description": "منصة التدريب الذكية ثنائية اللغة — Bilingual Luxury Strength & Conditioning System",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#08080a",
+  "theme_color": "#08080a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/voxa-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
